@@ -1,0 +1,29 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "webpack 学习测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "serve":"webpack-dev-server --devtool source-map",
+    "watch":"webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mrpan/webpack-test.git"
+  },
+  "author": "mrpan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrpan/webpack-test/issues"
+  },
+  "homepage": "https://github.com/mrpan/webpack-test#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
